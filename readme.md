@@ -1,8 +1,5 @@
 # Parallel-CYK-CFG-Parser-OMP
 
-* * *
-
-
 ![image alt text](image_0.png)
 
 **Problem Statement:**
@@ -42,27 +39,36 @@ Using parallel programming concepts we can divide our bigger problem into a smal
 **Parallel execution code for CYK Algorithm**
 
 <table>
-  <tr>
-    <td>How to run?
+  <tr><td> <b>How to run?</b> </td> </tr>
+  <tr><td>
 $ g++ -fopenmp main.cpp -o main
+	</td> </tr>
+<tr>
+    <td>
 $ ./main ./gram1.in < input1.in
---------------------------------------------------
+</td> </tr>
+	
+<tr>
+    <td>
+<p>
 Notes: 
-Create one file gram1.in which contains the grammar, eg: 
-S->AC|AB
-C->SB
-A->a
-B->b
+Create one file gram1.in which contains the grammar, eg: <p>
+S->AC|AB <p>
+C->SB <p>
+A->a <p>
+B->b <p>
 
 Create another file input.in which contains all the strings.
-3
-aacbb
-aaaabaaaaaabbbbbbcbbbbbbaaaaaabaaaa
-baaaabaaaaaabbbbbbccbbbbbbaaaaaabaaaab
 
---------------------------------------------------
+	3
 
-follow this directory structure.</td>
+	aacbb
+
+	aaaabaaaaaabbbbbbcbbbbbbaaaaaabaaaa
+
+	baaaabaaaaaabbbbbbccbbbbbbaaaaaabaaaab
+<p>
+	</td>
   </tr>
 </table>
 
@@ -104,8 +110,6 @@ No
 **Program output:**
 
 ### ![image alt text](image_4.png)
-
-### * * *
 
 
 ### **Results:**
